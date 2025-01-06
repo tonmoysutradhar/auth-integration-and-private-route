@@ -29,6 +29,7 @@ const Navbar = () => {
         {
             user && <>
                 <li><NavLink to="/orders">Orders</NavLink></li>
+                <li><NavLink to="/profile">Update Profile</NavLink></li>
             </>
         }
     </>
